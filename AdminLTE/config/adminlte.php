@@ -292,6 +292,13 @@ return [
     'menu' => [
         // Navbar items:
         [
+            // lang\vendor\adminlte\ja\menu.php
+            // text = menu.php内の'testpage'に対応
+            'text'       => 'testpage',
+            'icon_color' => 'cyan',
+            'url'        => '#',
+        ],
+        [
             'type'         => 'navbar-search',
             'text'         => 'search',
             'topnav_right' => true,

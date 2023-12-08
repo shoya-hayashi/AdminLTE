@@ -16,4 +16,6 @@ return [
     'important'                     => '重要',
     'warning'                       => '警告',
     'information'                   => 'インフォメーション',
+
+    'testpage'                      => 'テストページ',
 ];
