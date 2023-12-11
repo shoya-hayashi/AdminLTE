@@ -22,4 +22,6 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/admin/pages', DataTablesShowController::class);
+Route::get('/admin/pages', [DataTablesShowController::class, '__invoke']);
+Route::get('/admin/administrator_list', [DataTablesShowController::class, 'administratorList']);
+Route::get('/admin/new_additions', [DataTablesShowController::class, 'newAdditionsAdministrator']);

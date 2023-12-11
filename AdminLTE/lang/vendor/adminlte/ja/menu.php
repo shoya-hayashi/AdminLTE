@@ -18,4 +18,7 @@ return [
     'information'                   => 'インフォメーション',
 
     'testpage'                      => 'テストページ',
+    'administrator'                 => '管理者',
+    'administrator list'            => '管理者一覧',
+    'new additions'                 => '新規追加',
 ];

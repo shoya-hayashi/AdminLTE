@@ -21,4 +21,20 @@ class DataTablesShowController extends Controller
         ];
         return view('pages',compact('data',));
     }
+    public function administratorList(Request $request)
+    {
+        $data = [
+            [1, '宮田　愛子', 'miyata@test.com', '管理者'], 
+            [2, '沢田　啓子', 'sawada@test.com', '一般'], 
+            [3, '藤原　尚子', 'hujiwara@test.com', '一般'],
+            [4, '佐野　勉', 'sano@test.com', '管理者'], 
+            [5, '村上　健', 'murakami@test.com', '一般']
+        ];
+        return view('administratorList',compact('data',));
+    }
+    public function newAdditionsAdministrator()
+    {
+        return view('newAdditionsAdministrator');
+    }
+
 }

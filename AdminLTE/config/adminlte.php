@@ -109,8 +109,8 @@ return [
     'preloader' => [
         'enabled' => true,
         'img' => [
-            // 'path' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
-            'path' => 'img/naruto.png',
+            'path' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+            // 'path' => 'img/naruto.png',
             'alt' => 'AdminLTE Preloader Image',
             'effect' => 'animation__shake',
             'width' => 160,
@@ -327,6 +327,20 @@ return [
             'label_color' => 'success',
         ],
         ['header' => 'account_settings'],
+[
+    'text'    => 'administrator',
+    'icon'    => 'share',
+    'submenu' => [
+        [
+            'text' => 'administrator list',
+            'url'  => 'admin/administrator_list',
+        ],
+        [
+            'text'    => 'new additions',
+            'url'     => 'admin/new_additions',
+        ],
+    ],
+],
         [
             'text' => 'profile',
             'url'  => 'admin/settings',
