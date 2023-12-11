@@ -327,20 +327,20 @@ return [
             'label_color' => 'success',
         ],
         ['header' => 'account_settings'],
-[
-    'text'    => 'administrator',
-    'icon'    => 'share',
-    'submenu' => [
         [
-            'text' => 'administrator list',
-            'url'  => 'admin/administrator_list',
+            'text'    => 'administrator',
+            'icon'    => 'share',
+            'submenu' => [
+                [
+                    'text' => 'administrator list',
+                    'url'  => 'admin/administrator_list',
+                ],
+                [
+                    'text'    => 'new additions',
+                    'url'     => 'admin/new_additions',
+                ],
+            ],
         ],
-        [
-            'text'    => 'new additions',
-            'url'     => 'admin/new_additions',
-        ],
-    ],
-],
         [
             'text' => 'profile',
             'url'  => 'admin/settings',
